@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textSize="25dp"
+        android:text="\n\nYess! You Can Travel,\nWe have this list for you."
+        android:textAlignment="center"
+        android:textColor="#4527a0"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#18ffff"
+        android:text="CLICK TO HAVE THE LIST"
+        android:textSize="25dp"
+        android:layout_marginLeft="60dp"
+        android:onClick="Display_Listview"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:src="@drawable/tixibg" />
+
+</LinearLayout>
